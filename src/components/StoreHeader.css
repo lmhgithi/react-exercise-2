@@ -1,0 +1,27 @@
+#storeHeader {
+  background: #096ee3;
+  /*display: grid;*/
+  height: 60px;
+}
+
+#storeHeader h1 {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: white;
+}
+
+#storeHeader img {
+  width: 5%;
+  height: 5%;
+  position: relative;
+  left: 90%;
+  bottom: 20px;
+}
+
+#storeHeader .cartValue {
+  color: white;
+  position: relative;
+  left: 96%;
+  bottom: 45px;
+}

@@ -1,0 +1,20 @@
+.phoneList {
+  display: flex;
+  margin: 20px 10px 20px 10px;
+}
+
+.price add to cart {
+  display: flex;
+}
+div img {
+  width: 70%;
+}
+
+div button {
+  background-color: #3b6be2;
+  border-color: white;
+  color: white;
+}
+div button:active {
+  background-color: #9ab1ea;
+}
