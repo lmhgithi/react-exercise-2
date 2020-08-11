@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import imgURL from '../assets/favicon.ico';
+import imgURL from '../assets/cartIcon.jpg';
 import './StoreHeader.css';
 import PropTypes from 'prop-types';
 class StoreHeader extends Component {

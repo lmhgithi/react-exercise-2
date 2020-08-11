@@ -11,7 +11,7 @@ class PhoneElement extends Component {
       <div>
         <h3>{phone.name}</h3>
         <img src={HolderURL} alt="holder" />
-        <div className="price add to cart">
+        <div className="addToCart">
           <p>{phone.price}</p>
           <button onClick={handleAddCartValue}>add to cart</button>
         </div>
