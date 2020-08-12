@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 class PhoneList extends Component {
   render() {
     const { phoneList, handleAddCartValue } = this.props;
-    console.log(phoneList);
+    // console.log(phoneList);
     return (
       <div className="phoneList">
         {phoneList.map((phone, index) => (

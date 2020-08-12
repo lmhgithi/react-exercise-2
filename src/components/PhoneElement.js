@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 class PhoneElement extends Component {
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     const { phone, handleAddCartValue } = this.props;
 
     return (
@@ -22,6 +22,6 @@ class PhoneElement extends Component {
 
 export default PhoneElement;
 PhoneElement.propTypes = {
-  phone: PropTypes.array,
+  phone: PropTypes.object,
   handleAddCartValue: PropTypes.func.isRequired,
 };
